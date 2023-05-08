@@ -1,154 +1,160 @@
 ## GLOBAL ##
 - id: "global.home"
-  translation: "Home"
+  translation: "首页"
 
 - id: "global.categories"
-  translation: "Categories"
+  translation: "分类"
 
 - id: "global.category"
-  translation: "Category"
+  translation: "分类"
 
 - id: "global.tags"
-  translation: "Tags"
+  translation: "标签"
 
 - id: "global.tag"
-  translation: "Tag"
+  translation: "标签"
 
 - id: "global.archives"
-  translation: "Archives"
+  translation: "归档"
 
 - id: "global.search"
-  translation: "Search"
+  translation: "搜索"
 
 - id: "global.about"
-  translation: "About"
+  translation: "关于我"
+
+# - id: "global.twitter"
+# translation: "推特"
+
+- id: "global.lang"
+  translation: "EN"
 
 - id: "global.author_picture"
-  translation: "Author's picture"
+  translation: "作者的图片"
 
 - id: "global.share_on"
-  translation: "Share on %s"
+  translation: "分享到 %s"
 
 - id: "global.mail"
-  translation: "Mail"
+  translation: "邮箱"
 
 - id: "global.rss"
   translation: "RSS"
 
 - id: "global.search_category"
-  translation: "Search category"
+  translation: "搜索分类"
 
 - id: "global.search_tag"
-  translation: "Search tag"
+  translation: "搜索标签"
 
 - id: "global.search_date"
-  translation: "Search date (YYYY/MM/DD)"
+  translation: "搜索日期 (YYYY/MM/DD)"
 
 - id: "global.read_more_about_author"
-  translation: "Read more about the author"
+  translation: "阅读有关作者的更多信息"
 
 - id: "global.zoom_in_on_picture"
-  translation: "Zoom in on the picture"
+  translation: "放大图片"
 
 - id: "global.go_to_homepage"
-  translation: "Go to homepage"
+  translation: "去首页"
 
 - id: "global.open_link"
-  translation: "Open the link"
+  translation: "打开链接"
 
 - id: "global.open_post"
-  translation: "Open the post"
+  translation: "打开帖子"
 
 ## GLOBAL.POSTS_FOUND ##
 - id: "global.posts_found.zero"
-  translation: "no post found"
+  translation: "没有找到文章"
 
 - id: "global.posts_found.one"
-  translation: "1 post found"
+  translation: "找到 1 篇文章"
 
 - id: "global.posts_found.other"
-  translation: "{n} posts found"
+  translation: "找到 {n} 篇文章"
 
 ## GLOBAL.CATEGORIES_FOUND ##
 - id: "global.categories_found.zero"
-  translation: "no category found"
+  translation: "没有找到分类"
 
 - id: "global.categories_found.one"
-  translation: "1 cartegory found"
+  translation: "找到 1 个分类"
 
 - id: "global.categories_found.other"
-  translation: "{n} categories found"
+  translation: "找到 {n} 个分类"
 
 ## GLOBAL.TAGS_FOUND ##
 - id: "global.tags_found.zero"
-  translation: "no tag found"
+  translation: "没有找到标签"
 
 - id: "global.tags_found.one"
-  translation: "1 tag found"
+  translation: "找到 1 个标签"
 
 - id: "global.tags_found.other"
-  translation: "{n} tags found"
+  translation: "找到 {n} 个标签"
 
 ## PAGINATION ##
 - id: "pagination.page"
-  translation: "page {{ .Paginator.PageNumber }}"
+  translation: "第 {{ .Paginator.PageNumber }} 页"
 
 - id: "pagination.of"
-  translation: "of {{ .Paginator.TotalPages }}"
+  translation: "共 {{ .Paginator.TotalPages }} 页"
 
 - id: "pagination.newer_posts"
-  translation: "NEWER POSTS"
+  translation: "上一页"
 
 - id: "pagination.older_posts"
-  translation: "OLDER POSTS"
+  translation: "下一页"
 
 - id: "pagination.previous"
-  translation: "PREVIOUS"
+  translation: "前一篇"
 
 - id: "pagination.next"
-  translation: "NEXT"
+  translation: "后一篇"
 
 ## POST ##
 - id: "post.no_title"
-  translation: "no title"
+  translation: "无标题"
 
 - id: "post.categorized_in"
-  translation: "in"
+  translation: "发布在"
 
 - id: "post.tagged_in"
-  translation: "TAGGED IN"
+  translation: "标签"
 
 - id: "post.toc"
-  translation: "Table of Contents"
+  translation: "目录"
 
 - id: "post.read_more"
-  translation: "Continue reading"
+  translation: "阅读全文"
 
 - id: "post.go_to_website"
-  translation: "Go to website"
+  translation: "转到"
 
 - id: "post.comment_and_share"
-  translation: "Comment and share"
+  translation: "注释和共享"
 
 - id: "post.comment"
-  translation: "Leave a comment"
+  translation: "发表评论"
 
 - id: "post.back_to_top"
-  translation: "Back to top"
+  translation: "回到顶部"
 
 - id: "post.share"
-  translation: "Share this post"
+  translation: "分享这个帖子"
 
 - id: "post.gallery"
-  translation: "Gallery"
+  translation: "画廊"
 
 ## POST.IMAGE ##
 
 - id: "post.image.one"
-  translation: "image"
+  translation: "图片"
 
 - id: "post.image.other"
-  translation: "{n} images"
+  translation: "{n} 图片"
 
 ## FOOTER ##
 - id: "footer.all_rights_reserved"
@@ -156,37 +162,37 @@
 
 ## DATE ##
 - id: "date.month.january"
-  translation: "January"
+  translation: "一月"
 
 - id: "date.month.february"
-  translation: "February"
+  translation: "二月"
 
 - id: "date.month.march"
-  translation: "March"
+  translation: "三月"
 
 - id: "date.month.april"
-  translation: "April"
+  translation: "四月"
 
 - id: "date.month.may"
-  translation: "May"
+  translation: "五月"
 
 - id: "date.month.june"
-  translation: "June"
+  translation: "六月"
 
 - id: "date.month.july"
-  translation: "July"
+  translation: "七月"
 
 - id: "date.month.august"
-  translation: "August"
+  translation: "八月"
 
 - id: "date.month.september"
-  translation: "September"
+  translation: "九月"
 
 - id: "date.month.october"
-  translation: "October"
+  translation: "十月"
 
 - id: "date.month.november"
-  translation: "November"
+  translation: "十一月"
 
 - id: "date.month.december"
-  translation: "December"
+  translation: "十二月"
