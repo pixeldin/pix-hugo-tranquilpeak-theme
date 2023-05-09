@@ -12,131 +12,142 @@
 pre > code {
     background: #1c1b1b;
     color: #ffffff;
-  }
-  
-  // Default inline code
-  code {
+}
+
+// allow for horizontal scrolling of code blocks
+pre > code.codeblock {
+    overflow-x: auto;
+}
+
+// Default inline code
+code {
     background-color: #f7f8f8;
-  }
-  
-  
-  // Tabbed code block tab
-  // If your theme is dark then use a lighter background
-  // to see clearly which tab is active
-  .codeblock--tabbed figcaption .tab.active {
-      background: #1c1b1b;
-      color: #ffffff;
-  }
-  
-  // highlight code block
-  figure.highlight,
-  .codeblock {
-      background: #1c1b1b;
-      color: #ffffff;
-  
-      figcaption {
-          background: #1c1b1b;
-          color: #839496;
-      }
-      .gutter {
-          background: #1c1b1b;
-          border-right-color: #f7f8f8;
-          .line {
-              color: #839496;
-          }
-      }
-      // PUT YOUR THEME HERE
-      .comment {
-          /* var(--highlight-comment) */
-          color: #999999;
-      }
-  
-      .addition {
-          color: #76c490;
-      }
+}
 
-      .deletion {
-          /* var(--highlight-deletion) */
-          color: #de7176;
-      }
 
-      .keyword,
-      .selector-tag,
-      .keyword,
-        .doctag,
-        .section {
+// Tabbed code block tab
+// If your theme is dark then use a lighter background
+// to see clearly which tab is active
+.codeblock--tabbed figcaption .tab.active {
+    background: #1c1b1b;
+    color: #ffffff;
+}
+
+// highlight code block
+figure.highlight,
+.codeblock {
+    background: #1c1b1b;
+    color: #ffffff;
+
+    figcaption {
+        background: #1c1b1b;
+        color: #839496;
+    }
+    .gutter {
+        background: #1c1b1b;
+        border-right-color: #f7f8f8;
+        .line {
+            color: #839496;
+        }
+    }
+    // PUT YOUR THEME HERE
+    .comment {
+        /* var(--highlight-comment) */
+        color: #999999;
+    }
+
+    .addition {
+        color: #76c490;
+    }
+
+    .deletion {
+        /* var(--highlight-deletion) */
+        color: #de7176;
+    }
+
+    .keyword,
+    .selector-tag,
+    .keyword,
+    .doctag,
+    .section {
         /* var(--highlight-keyword) */
         color: #b5bd68;
-      }
-    
-      /* Solarized Cyan */
-      .number,
-      .string,
-      .meta .meta-string,
-      .doctag,
-      .regexp {
-          color: #b5bd68;
-      }
-      
-      /* Solarized Blue */
-      .section,
-      .name,
-      .type,
-      .quote
-      .template-tag,
-      .selector-id {
-          color: #f08d49;
-      }
+    }
 
-      .selector-class {
+    /* Solarized Cyan */
+    .number,
+    .string,
+    .meta .meta-string,
+    .doctag,
+    .regexp {
+        color: #b5bd68;
+    }
+    
+    /* Solarized Blue */
+    .section,
+    .name,
+    .type,
+    .quote
+    .template-tag,
+    .selector-id {
+        color: #f08d49;
+    }
+
+    .selector-class {
         /* var(--highlight-keyword) */
         color: #88aece;
-      }
-  
-      
-      /* Solarized Yellow */
-      .attribute,
-      .attr,
-      .symbol,
-      .variable,
-      .template-variable,
-      .class,
-      .selector-attr {
-          color: #b5bd68;
-      }
-      
-      /* Solarized Orange */
-      .subst,
-      .meta,
-      .meta .keyword,
-      .selector-pseudo,
-      .link {
-          color: #88aece;
-      }
-      
-      /* Solarized Red */
-      .built_in,
-      .title,
-      .literal,
-      .deletion {
-          color: #f08d49;
-      }
-      
-      .formula,
-      .operator,
-      .params,
-      .property,
-      .punctuation,
-      .tag {
-          /* purposely ignored */
-      }
-      
-      .emphasis {
-          font-style: italic;
-      }
-      
-      .strong {
-          font-weight: bold;
-      }
-  
-  }
+    }
+
+    
+    /* Solarized Yellow */
+    .attribute,
+    .attr,
+    .symbol,
+    .variable,
+    .template-variable,
+    .class,
+    .selector-attr {
+        color: #b5bd68;
+    }
+    
+    /* Solarized Orange */
+    .subst,
+    .meta,
+    .meta .keyword,
+    .selector-pseudo,
+    .link {
+        color: #88aece;
+    }
+    
+    /* Solarized Red */
+    .built_in,
+    .title,
+    .literal,
+    .deletion {
+        color: #f08d49;
+    }
+
+    // 公式、运算符、标点符号、
+    .formula,
+    .operator,
+    .punctuation {
+        color: #88aece
+    }
+    
+    // 参数、属性、标签
+    .params,
+    .property,
+    .tag {
+        /* purposely ignored */
+        color: #41c941;
+    }
+    
+    .emphasis {
+        font-style: italic;
+    }
+    
+    .strong {
+        font-weight: bold;
+    }
+
+}
